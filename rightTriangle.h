@@ -8,8 +8,9 @@
 #ifndef RIGHTTRIANGLE_H
 #define RIGHTTRIANGLE_H
 
-#include "polygon.h"
 
+#include "polygon.h"
+#include <cmath>
 
 /// @class RightTriangle
 /// @brief an abstract base class for polygons
@@ -33,6 +34,7 @@ public:
 	/// @{
 	RightTriangle& operator=(const RightTriangle &p); 
 	bool operator==(const RightTriangle &p);
+	friend std::ostream& operator<<(std::ostream& os, const RightTriangle& r);
 	/// @}
 	
 	/// @name BASIC HANDLING
@@ -53,7 +55,7 @@ public:
 	/// @}
     
 	/// @name DEBUG and SERIALIZATION 
-	/// @{
+	/// @{u3
 	void ErrorMessage(const char *string); 
 	void WarningMessage(const char *string);
 	void Dump();

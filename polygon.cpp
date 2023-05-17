@@ -111,4 +111,3 @@ void Polygon::Dump() {
 	cout << endl << flush;
 
 }
-
