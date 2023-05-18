@@ -2,24 +2,24 @@
 #include <cmath>
 
 RightTriangle::RightTriangle() : Polygon(), base(0.0), altitude(0.0) {
-    cout << "RightTriangle - constructor - default" << endl;
+    //cout << "RightTriangle - constructor - default" << endl;
 }
 
 RightTriangle::RightTriangle(float base, float altitude) : Polygon(), base(base), altitude(altitude) {
-    cout << "RightTriangle - constructor" << endl;
+    //cout << "RightTriangle - constructor" << endl;
 }
 
 /// @brief copy constructor 
 /// @param r reference to the object that should be copied 
 RightTriangle::RightTriangle(const RightTriangle &p) {
 	
-	cout << "RightTriangle - copy constructor" << endl;
+	//cout << "RightTriangle - copy constructor" << endl;
 
 	Init(p);
 }
 
 RightTriangle::~RightTriangle() {
-    cout << "RightTriangle - destructor" << endl;
+    //cout << "RightTriangle - destructor" << endl;
 }
 
 
