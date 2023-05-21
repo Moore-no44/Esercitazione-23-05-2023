@@ -1,3 +1,9 @@
+/// \file rightTriangle.cpp
+///	\brief class RightTriangle: implementation of the functions
+///
+///	Details.
+///
+
 #include "rightTriangle.h"
 #include <cmath>
 

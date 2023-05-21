@@ -1,3 +1,9 @@
+/// \file rhombus.cpp
+///	\brief class Rhombus: implementation of the functions
+///
+///	Details.
+///
+
 #include "rhombus.h"
 
 /// @brief default constructor
