@@ -1,3 +1,9 @@
+/// \file main.cpp
+///	\brief main prog
+///
+///	Details.
+///
+
 #include <iostream>
 
 #include "rectangle.h"
@@ -8,11 +14,14 @@ using namespace std;
 
 const int MAX_ITEMS = 100;
 
+/// @brief main function
 int main() {
     Polygon* shapes[MAX_ITEMS];
     int count = 0;
 
     int choice = 0;
+
+    /// @brief displays selection menu
     do {
         cout << "\nMENU:" << endl;
         cout << "1 - Rectangle" << endl;
@@ -22,6 +31,11 @@ int main() {
         cout << "5 - Exit" << endl;
         cout << "\nEnter your choice: ";
         cin >> choice;
+
+        /// @brief lets the user input characteristics of the shapes and increases shapes counter
+        /// @brief outputs area and perimeter
+        /// @brief exits the program
+        /// @brief all depending on the previous choice
 
         switch (choice) {
             case 1: {

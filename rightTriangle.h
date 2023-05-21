@@ -55,7 +55,7 @@ public:
 	/// @}
     
 	/// @name DEBUG and SERIALIZATION 
-	/// @{u3
+	/// @{
 	void ErrorMessage(const char *string); 
 	void WarningMessage(const char *string);
 	void Dump();
